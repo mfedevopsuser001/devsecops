@@ -41,7 +41,7 @@
     "Parameters": {
         "KeyName": {
             "Description": "Name of an existing EC2 KeyPair",
-            "Type": "AWS::EC2::KeyPair::KeyName",
+            "Type": "AWS::EC2::KeyPair::mvcdevops",
             "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
         }
     },
@@ -75,7 +75,7 @@
                         "IpProtocol": "tcp",
                         "FromPort": 80,
                         "ToPort": 80,
-                        "CidrIp": "172.16.0.0/12"
+                        "CidrIp": "172.16.10.16/12"
                     }
                 ]
             },
