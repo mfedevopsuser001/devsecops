@@ -60,11 +60,6 @@
                     }
                 ]
             },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "da500109-8303-4a4b-b758-44c969698eec"
-                }
-            }
         },
         "EC2SGinbound2": {
             "Type": "AWS::EC2::SecurityGroup",
@@ -78,11 +73,6 @@
                         "CidrIp": "172.16.10.16/12"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "dbe14d5b-9789-413a-b66f-cf46650cc990"
-                }
             }
         }
     }
