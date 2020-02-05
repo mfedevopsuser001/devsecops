@@ -59,7 +59,7 @@
                         "Ref": "EC2SGinbound2"
                     }
                 ]
-            },
+            }
         },
         "EC2SGinbound2": {
             "Type": "AWS::EC2::SecurityGroup",
